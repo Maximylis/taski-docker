@@ -1,5 +1,4 @@
 import os
-
 from pathlib import Path
 
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -15,7 +14,7 @@ ALLOWED_HOSTS = [
     '123.123.123.123',
     'foryandex.ddns.net',
     '158.160.237.7'
-    ]
+]
 
 INSTALLED_APPS = [
     'api.apps.ApiConfig',
